@@ -22,7 +22,7 @@ public class HomeController {
         OidcUser oidcUser = (OidcUser) authentication.getPrincipal();
 
         System.out.println("oidc user: " + oidcUser);
-        System.out.println("Hello world");
+        System.out.println("Hello big world");
         System.out.println("oidc user info: " + oidcUser.getUserInfo());
         System.out.println("oidc user email: " + oidcUser.getPreferredUsername());
 
